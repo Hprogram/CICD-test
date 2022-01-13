@@ -3,11 +3,13 @@
 	"version": "1.0.0",
 	"description": "cicd test file",
 	"scripts": {
-		"start": "node app.js"
+		"start": "node app.js",
+		"test": "jest"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.17.2"
+		"express": "^4.17.2",
+		"jest": "^27.4.7"
 	}
 }
